@@ -1,4 +1,4 @@
-package billion.group.wireguard_flutter
+package com.kapo.wireguardvpn
 
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -33,8 +33,8 @@ import java.io.ByteArrayInputStream
 /** WireguardFlutterPlugin */
 
 const val PERMISSIONS_REQUEST_CODE = 10014
-const val METHOD_CHANNEL_NAME = "billion.group.wireguard_flutter/wgcontrol"
-const val METHOD_EVENT_NAME = "billion.group.wireguard_flutter/wgstage"
+const val METHOD_CHANNEL_NAME = "com.kapo.wireguardvpn/wgcontrol"
+const val METHOD_EVENT_NAME = "com.kapo.wireguardvpn/wgstage"
 
 class WireguardFlutterPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
     PluginRegistry.ActivityResultListener {

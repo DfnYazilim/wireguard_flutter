@@ -1,4 +1,4 @@
-group 'billion.group.wireguard_flutter'
+group 'com.kapo.wireguardvpn'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -44,7 +44,7 @@ android {
         minSdkVersion 21
     }
 
-    namespace 'billion.group.wireguard_flutter'
+    namespace 'com.kapo.wireguardvpn'
 }
 
 dependencies {
