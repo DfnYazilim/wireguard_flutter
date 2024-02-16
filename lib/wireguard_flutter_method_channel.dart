@@ -4,10 +4,10 @@ import 'wireguard_flutter_platform_interface.dart';
 
 class WireGuardFlutterMethodChannel extends WireGuardFlutterInterface {
   static const _methodChannelVpnControl =
-      "com.kapo.wireguardvpn/wgcontrol";
+      "com.kapo.wireguardvpnpack/wgcontrol";
   static const _methodChannel = MethodChannel(_methodChannelVpnControl);
   static const _eventChannelVpnStage =
-      'com.kapo.wireguardvpn/wgstage';
+      'com.kapo.wireguardvpnpack/wgstage';
   static const _eventChannel = EventChannel(_eventChannelVpnStage);
 
   @override

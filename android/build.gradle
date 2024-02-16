@@ -1,4 +1,4 @@
-group 'com.kapo.wireguardvpn'
+group 'com.kapo.wireguardvpnpack'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -44,7 +44,7 @@ android {
         minSdkVersion 21
     }
 
-    namespace 'com.kapo.wireguardvpn'
+    namespace 'com.kapo.wireguardvpnpack'
 }
 
 dependencies {

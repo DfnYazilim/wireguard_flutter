@@ -28,9 +28,9 @@ namespace wireguard_flutter
   void WireguardFlutterPlugin::RegisterWithRegistrar(PluginRegistrarWindows *registrar)
   {
     auto channel = make_unique<MethodChannel<EncodableValue>>(
-        registrar->messenger(), "com.kapo.wireguardvpn/wgcontrol", &StandardMethodCodec::GetInstance());
+        registrar->messenger(), "com.kapo.wireguardvpnpack/wgcontrol", &StandardMethodCodec::GetInstance());
     auto eventChannel = make_unique<EventChannel<EncodableValue>>(
-        registrar->messenger(), "com.kapo.wireguardvpn/wgstage", &StandardMethodCodec::GetInstance());
+        registrar->messenger(), "com.kapo.wireguardvpnpack/wgstage", &StandardMethodCodec::GetInstance());
 
     auto plugin = make_unique<WireguardFlutterPlugin>();
 

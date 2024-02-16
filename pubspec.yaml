@@ -24,7 +24,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.kapo.wireguardvpn
+        package: com.kapo.wireguardvpnpack
         pluginClass: WireguardFlutterPlugin
       ios:
         pluginClass: WireguardFlutterPlugin

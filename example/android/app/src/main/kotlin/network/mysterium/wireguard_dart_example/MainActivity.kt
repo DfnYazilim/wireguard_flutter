@@ -1,4 +1,4 @@
-package com.kapo.wireguardvpn_example
+package com.kapo.wireguardvpnpack_example
 
 import io.flutter.embedding.android.FlutterActivity
 
